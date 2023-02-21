@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+*:not(i) {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  padding: 15px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+header h1 {
+  margin: 0 20px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+header a {
+  text-decoration: none;
+}
+
+#form {
+  width: 65%;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  gap: 40px;
+}
+
+#search {
+  width: 55%;
+  height: 35px;
+  border: none;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 3px solid rgb(43, 121, 131);
+  border-radius: 7px;
+  padding-left: 15px;
+}
+
+.search {
+  padding: 10px 0;
+  width: 25%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  border: none;
+  background-color: rgb(43, 121, 131);
+  color: rgb(253, 253, 253);
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#main {
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#main div {
+  width: 250px;
+  max-height: 330px;
+  margin: 21px 15px;
+  padding-bottom: 35px;
+  background-color: rgb(43, 121, 131);
+}
+img {
+  width: 100%;
+  height: 89%;
+  object-fit: cover;
+}
+h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 11px;
+  color: rgb(255, 255, 255);
+}
